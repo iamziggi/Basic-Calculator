@@ -1,0 +1,73 @@
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+  text-align: center;
+}
+
+.Calculator {
+    width: 300px;
+    margin: 0 auto;
+    border: 3px solid #000;
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+  }
+
+  #result {
+    width: 87%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    outline: none;
+    background-color: azure;
+    text-align: right;
+  }
+  
+  table {
+    margin: 0 auto;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10%;
+    background-color: #ccc;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  button.off{
+    background-color: red;
+  }
+
+  button.on{
+    background-color: orange;
+  }
+
+  button.submit{
+    background-color: red;
+    width: 187%;
+  }
+  
+  button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
